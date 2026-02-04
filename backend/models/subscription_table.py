@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float
 from database.db import Base
 
-class SubscriptionTable(Base): #Create a table called 'subscriptions' with columns id, name and price.
+class SubscriptionTable(Base): 
     __tablename__ = "subscriptions"
 
     id = Column(Integer, primary_key=True, index=True)
